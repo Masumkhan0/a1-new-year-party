@@ -237,8 +237,34 @@ section{
    margin-bottom: 80px;
 
 }
-   
+   /* footer related style */
 
+.footer{
+    background: #070211;
+    width:100%;
+    max-width:1600px;
+    height: 609px; 
+    justify-content: center;
+    align-items: center; 
+}
+.footer-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight:400;
+    line-height: 15px;
+    padding: 120px auto;
+    
+}
+.sm-link{
+    display: flex;
+    gap: 20px;
+    
+
+}
 
 
     
