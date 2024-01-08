@@ -122,3 +122,42 @@ section{
     background: #F00;
     padding: 10px 20px;
  }
+ /* portfolio related style */
+ .portfolio-dis{
+    text-align: left;
+    line-height: 15px;
+    margin-left: 100px;
+    max-width: 50%;
+    line-height: 15px;
+ }
+ .portfolio-intro{
+    color: #F00;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+}
+.portfolio-title{
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 30px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.gift-image-1{
+    display: flex;
+   justify-content: space-between;
+    gap: 10px;
+    margin: 0px 100px;
+    cursor: pointer;
+}
+.gift-image-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 10px 100px;
+    cursor: pointer;
+}
+.gift-image:hover{
+    background-color: rgb(190, 242, 225);
+
+}
