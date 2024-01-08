@@ -1,11 +1,15 @@
 body{
     font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+}
+.common-color{
+    #FF0000
 }
 /* Banner related style */
+
 .banner-container{
     color: #FFF;
-    text-align: center;
-    
+    text-align: center;   
 }
 .banner-greeting{
     font-size: 32px;
@@ -28,4 +32,26 @@ header{
     border-radius: 16px;
     margin: 50px 140px;
     
+}
+section{
+    text-align: center;
+}
+.dis-title{
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.dis-description{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500; 
+    margin-top: 30px; 
+}
+.dis-categories{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: -20px;
 }
