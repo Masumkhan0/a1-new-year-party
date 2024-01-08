@@ -3,7 +3,7 @@ body{
 
 }
 .common-color{
-    #FF0000
+    color: #FF0000;
 }
 /* Banner related style */
 
@@ -94,3 +94,31 @@ section{
     background: transparent;
     border-style: none;
 }
+ .time-container{
+    background: linear-gradient(to bottom, #f4d3d3, #f9f0eb, #fbfafa);
+    margin: 110px 110px;
+ }
+ section .party-time{
+    color: #070211;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height:10px;
+    padding-top: 50px;
+    padding-bottom: 90px;
+ }
+ section span{
+    color:  #F00;
+ }
+ section .party-time button{
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #F00;
+    padding: 10px 20px;
+ }
