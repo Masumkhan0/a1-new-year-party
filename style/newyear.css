@@ -249,8 +249,8 @@ section{
 }
 .footer-top{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    /* align-items: center; */
     color: #FFF;
     font-family: Inter;
     font-size: 20px;
@@ -262,6 +262,7 @@ section{
 .sm-link{
     display: flex;
     gap: 20px;
+    
     
 
 }
